@@ -21,7 +21,6 @@ Follow these steps to use the script:
 Open the script file in a text editor or PowerShell Integrated Scripting Environment (ISE).
 
 Update the following variables in the script with your specific values:
-
 $Username: Your SharePoint Online username.
 $Password: Your SharePoint Online password.
 $SiteUrl: The URL of your SharePoint Online site.
