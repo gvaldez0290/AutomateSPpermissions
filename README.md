@@ -21,11 +21,12 @@ Follow these steps to use the script:
 Open the script file in a text editor or PowerShell Integrated Scripting Environment (ISE).
 
 Update the following variables in the script with your specific values:
-$Username: Your SharePoint Online username.
-$Password: Your SharePoint Online password.
-$SiteUrl: The URL of your SharePoint Online site.
-$SourceLibrary: The name of the source library from which you want to copy files and folders.
-$DestinationLibrary: The name of the destination library where you want to copy the files and folders.
+-$Username: Your SharePoint Online username.
+-$Password: Your SharePoint Online password.
+-$SiteUrl: The URL of your SharePoint Online site.
+-$SourceLibrary: The name of the source library from which you want to copy files and folders.
+-$DestinationLibrary: The name of the destination library where you want to copy the files and folders.
+
 Run the script in PowerShell. It will prompt you to enter the name of the destination library using a graphical user interface (GUI). Enter the name and click "OK."
 
 The script will copy files and folders from the source library to the destination library while preserving the folder structure.
