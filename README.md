@@ -38,10 +38,11 @@ The script will also add a list item to the destination library, which you can c
 Finally, it will launch your web browser to confirm that the Document library was created correctly.
 
 ## Desktop Shortcut
-Create a destop shorcut by creating the following .bat file 
+Create a destop shortcut by creating the following .bat file. 
 ```bat
 "C:\Program Files\PowerShell\7\pwsh.exe" -File "path.ps1"
 ```
+Create a shortcut of this file and paste it onto your desktop. This allows you to run the program with the click of a button.
 
 ## Notes
 The script uses the PnP PowerShell module for SharePoint operations, so ensure it is installed and configured properly.
