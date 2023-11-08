@@ -3,10 +3,10 @@ Shows how to a complex SharePont permissions schema based on groups outlined in 
 
 This README provides an overview and usage instructions for a PowerShell script designed to copy files and folders from one SharePoint library to another while maintaining the folder structure and permissions. This script is useful for scenarios where you need to replicate a SharePoint library's content to another location.
 
-Prerequisites
+## Prerequisites
 Before using this script, make sure you have the following prerequisites in place:
 
-PowerShell: Ensure you have PowerShell installed on your machine.
+PowerShell 7: Ensure you have PowerShell 7 installed on your machine.
 
 SharePoint Online: You should have access to the source and destination SharePoint Online libraries. This script is designed for SharePoint Online environments.
 
@@ -15,7 +15,7 @@ PnP PowerShell: Install the PnP PowerShell module using the following command:
 ```powershell
 Import-Module PnP.PowerShell -Force
 ```
-Usage
+## Usage
 Follow these steps to use the script:
 
 Open the script file in a text editor or PowerShell Integrated Scripting Environment (ISE).
@@ -37,7 +37,13 @@ The script will also add a list item to the destination library, which you can c
 
 Finally, it will launch your web browser to confirm that the Document library was created correctly.
 
-Notes
+## Desktop Shortcut
+Create a destop shorcut by creating the following .bat file 
+```bat
+"C:\Program Files\PowerShell\7\pwsh.exe" -File "path.ps1"
+```
+
+## Notes
 The script uses the PnP PowerShell module for SharePoint operations, so ensure it is installed and configured properly.
 Make sure to handle sensitive information like passwords securely, possibly using SharePoint app passwords or other secure methods.
 Disclaimer: Use this script with caution, especially in production environments, and test it thoroughly in a safe environment before deploying it to ensure it meets your specific requirements and does not inadvertently affect your SharePoint data.
