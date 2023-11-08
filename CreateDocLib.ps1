@@ -173,5 +173,5 @@ Disconnect-PnPOnline
 Write-Host "Folders and files copied successfully!"
 
 #launch the browser to ensure the Document library was created correctly
-Start-Process "chrome.exe" "https://midsouthsteelinc.sharepoint.com/sites/MSIShare/_layouts/15/viewlsts.aspx?view=14"
+Start-Process "chrome.exe" "https://[orgsitename].sharepoint.com/sites/[sitename]/_layouts/15/viewlsts.aspx?view=14"
 
