@@ -1,4 +1,4 @@
-Import-Module PnP.PowerShell -Force
+import-Module PnP.PowerShell -Force
 
 #Cred-Variables
 $Username = "username@email.com"
